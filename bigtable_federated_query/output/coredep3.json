@@ -1,0 +1,107 @@
+{
+    "sourceFormat": "BIGTABLE",
+    "sourceUris": [
+        "https://googleapis.com/bigtable/projects/edge-iot/instances/coredep-iot-instance/tables/coredep-03"
+    ],
+    "bigtableOptions": {
+        "readRowkeyAsString": "true",
+        "columnFamilies": [
+            {
+                "familyId": "dep3",
+                "type": "STRING",
+                "encoding": "BINARY",
+                "onlyReadLatest": "true",
+                "columns": [
+                    {
+                        "qualifierString": "dep3_column_name",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP3_DEP_TIME",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP3_ELAPSED_TIME",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP3_GECL4_HOTBOX_TEMP_PV",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP3_GECL4_HOTBOX_TEMP_SP",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP3_GECL4_TANK_PRESS_PV",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP3_GECL4_TANK_PRESS_SP",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP3_GECL4_TANK_TEMP_PV",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP3_GECL4_TANK_TEMP_SP",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP3_HOOD_PRESS_PV",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP3_OPERATOR_W",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP3_RECIPE",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP3_SICL4_HOTBOX_TEMP_PV",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP3_SICL4_HOTBOX_TEMP_SP",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP3_SICL4_TANK_PRESS_PV",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP3_SICL4_TANK_PRESS_SP",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP3_SICL4_TANK_TEMP_PV",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP3_SICL4_TANK_TEMP_SP",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP3_START_DATE_TIME",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP3_TRAVERSE_POSITION_PV",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP3_TRAVERSE_SPEED_PV",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP3_TRAVERSE_SPEED_SP",
+                        "onlyReadLatest": "true"
+                    }
+                ]
+            }
+        ]
+    }
+}

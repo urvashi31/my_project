@@ -1,0 +1,23 @@
+{
+    "sourceFormat": "BIGTABLE",
+    "sourceUris": [
+        "https://googleapis.com/bigtable/projects/edge-iot/instances/coredep-iot-instance/tables/coredep-04"
+    ],
+    "bigtableOptions": {
+        "readRowkeyAsString": "true",
+        "columnFamilies" : [
+            {
+                "familyId": "__FAMILY__",
+                "type": "STRING",
+                "encoding": "BINARY",
+                "onlyReadLatest" : "true",
+                "columns": [
+                  {
+                      "qualifierString": "__NAME__",
+                      "onlyReadLatest": "true"
+                  }
+              ]
+            }
+        ]
+    }
+}

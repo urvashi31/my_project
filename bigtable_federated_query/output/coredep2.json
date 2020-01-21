@@ -1,0 +1,103 @@
+{
+    "sourceFormat": "BIGTABLE",
+    "sourceUris": [
+        "https://googleapis.com/bigtable/projects/edge-iot/instances/coredep-iot-instance/tables/coredep-02"
+    ],
+    "bigtableOptions": {
+        "readRowkeyAsString": "true",
+        "columnFamilies": [
+            {
+                "familyId": "dep2",
+                "type": "STRING",
+                "encoding": "BINARY",
+                "onlyReadLatest": "true",
+                "columns": [
+                    {
+                        "qualifierString": "COR_DEP2_DEP_TIME",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP2_GECL4_HOTBOX_TEMP_PV",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP2_GECL4_HOTBOX_TEMP_SP",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP2_GECL4_TANK_TEMP_SP",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP2_HOOD_PRESS_PV",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP2_OPERATOR_W",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP2_SICL4_HOTBOX_TEMP_SP",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP2_SICL4_TANK_PRESS_PV",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP2_SICL4_TANK_PRESS_SP",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP2_SICL4_TANK_TEMP_PV",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP2_SICL4_TANK_TEMP_SP",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP2_START_DATE_TIME",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP2_TRAVERSE_SPEED_PV",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP2_TRAVERSE_SPEED_SP",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP2_ELAPSED_TIME",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP2_GECL4_TANK_PRESS_PV",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP2_GECL4_TANK_PRESS_SP",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP2_GECL4_TANK_TEMP_PV",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP2_RECIPE",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP2_SICL4_HOTBOX_TEMP_PV",
+                        "onlyReadLatest": "true"
+                    },
+                    {
+                        "qualifierString": "COR_DEP2_TRAVERSE_POSITION_PV",
+                        "onlyReadLatest": "true"
+                    }
+                ]
+            }
+        ]
+    }
+}
